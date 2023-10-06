@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kufam&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Skate</title>
+  </head>
+  <body>
+    <h1 id="welcome">Welcome to My Site!</h1>
+
+    <div id="tipCalc">
+      <h1>Tip Calculator</h1>
+      <p class="error"></p>
+      Bill Amount:
+      <input type="number" id="amount" placeholder="Amount ($)" /><br /><br />
+      Tip Percentage:
+      <input type="range" min="0" max="100" value="0" id="slider" />
+      <span id="tipVal">0%</span>
+      <div class="tipSection">
+        <p class="tip"></p>
+        <div class="tipAmount"></div>
+        <p class="tipwitbill"></p>
+        <div class="tipWithBill"></div>
+      </div>
+    </div>
+  </body>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"
+  ></script>
+  <script src="scripts.js"></script>
+</html>

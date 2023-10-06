@@ -1,0 +1,44 @@
+/* Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kufam", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#tipCalc {
+  background-color: #fff;
+  width: 500px;
+  color: #222;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 14px;
+}
+
+#tipCalc h1 {
+  margin-bottom: 10px;
+}
+
+.tipSection {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+red {
+  color: red;
+}
+
+#welcome {
+  position: absolute;
+  top: 15%;
+  font-size: 70px;
+}
